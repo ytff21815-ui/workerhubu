@@ -1,9 +1,9 @@
 import { TrendingUp, IndianRupee, Calendar, ArrowUpRight } from "lucide-react";
 
 const EarningsCard = () => {
-  const lastMonthEarnings = 12450;
-  const totalEarnings = 45680;
-  const tasksCompleted = 156;
+  const lastMonthEarnings = 0;
+  const totalEarnings = 0;
+  const tasksCompleted = 0;
 
   return (
     <div className="gradient-card rounded-xl p-6 shadow-card border border-border">
