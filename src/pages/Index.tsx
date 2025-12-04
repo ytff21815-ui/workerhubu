@@ -4,6 +4,7 @@ import EarningsCard from "@/components/EarningsCard";
 import BonusCard from "@/components/BonusCard";
 import WorkCertificate from "@/components/WorkCertificate";
 import TaskSummary from "@/components/TaskSummary";
+import WelcomeCard from "@/components/WelcomeCard";
 
 const Index = () => {
   return (
@@ -48,6 +49,9 @@ const Index = () => {
           {/* Right Column */}
           <div className="lg:col-span-2 space-y-6">
             <div className="animate-fade-in" style={{ animationDelay: "0.15s" }}>
+              <WelcomeCard />
+            </div>
+            <div className="animate-fade-in" style={{ animationDelay: "0.2s" }}>
               <BonusCard />
             </div>
             
