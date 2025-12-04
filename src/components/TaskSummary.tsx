@@ -2,10 +2,10 @@ import { CheckCircle2, Clock, ListTodo, Target } from "lucide-react";
 
 const TaskSummary = () => {
   const tasks = [
-    { label: "Completed Tasks", value: 156, icon: CheckCircle2, color: "text-success" },
-    { label: "Pending Tasks", value: 8, icon: Clock, color: "text-warning" },
+    { label: "Completed Tasks", value: 0, icon: CheckCircle2, color: "text-success" },
+    { label: "Pending Tasks", value: 0, icon: Clock, color: "text-warning" },
     { label: "Today's Target", value: 10, icon: Target, color: "text-primary" },
-    { label: "Total Tasks", value: 164, icon: ListTodo, color: "text-foreground" },
+    { label: "Total Tasks", value: 0, icon: ListTodo, color: "text-foreground" },
   ];
 
   return (
@@ -28,10 +28,10 @@ const TaskSummary = () => {
       <div className="mt-4 p-3 rounded-lg bg-primary/10 border border-primary/30">
         <div className="flex items-center justify-between text-sm">
           <span className="text-muted-foreground">Daily Progress</span>
-          <span className="text-primary font-medium">7/10 Tasks</span>
+          <span className="text-primary font-medium">0/10 Tasks</span>
         </div>
         <div className="mt-2 h-2 bg-secondary rounded-full overflow-hidden">
-          <div className="h-full w-[70%] gradient-gold rounded-full"></div>
+          <div className="h-full w-[0%] gradient-gold rounded-full"></div>
         </div>
       </div>
     </div>
