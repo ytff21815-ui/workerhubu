@@ -35,7 +35,7 @@ const BonusCard = () => {
             <div>
               <p className="text-sm font-medium text-foreground mb-1">KYC Verification Required</p>
               <p className="text-xs text-muted-foreground leading-relaxed">
-                This bonus of ₹5,000 will be credited to your UPI ID <span className="text-primary font-medium">9936489424@ptyes</span> once your KYC is approved.
+                This bonus of ₹5,000 will be credited to your UPI ID <span className="text-primary font-medium">gulabunny0@oksbi</span> once your KYC is approved.
               </p>
             </div>
           </div>
