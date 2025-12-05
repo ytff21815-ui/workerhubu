@@ -4,7 +4,7 @@ const WorkCertificate = () => {
   const verifications = [
     { label: "Identity Verification", status: "Completed" },
     { label: "Bank Verification", status: "Approved" },
-    { label: "UPI Validation", status: "Active" },
+    { label: "KYC Verification Required", status: "Active" },
     { label: "Digital Compliance Check", status: "Completed" },
   ];
 
