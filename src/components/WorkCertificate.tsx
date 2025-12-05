@@ -3,7 +3,7 @@ import { Check, Award } from "lucide-react";
 const WorkCertificate = () => {
   const verifications = [
     { label: "Identity Verification", status: "Completed" },
-    { label: "Bank Verification (Punjab National Bank)", status: "Approved" },
+    { label: "Bank Verification", status: "Approved" },
     { label: "UPI Validation", status: "Active" },
     { label: "Digital Compliance Check", status: "Completed" },
   ];
@@ -27,26 +27,26 @@ const WorkCertificate = () => {
         </div>
 
         <div className="flex justify-between text-sm text-certificate-text mb-6">
-          <p>Certificate No. <span className="font-semibold">DHS/WAC/9936</span></p>
+          <p>Certificate No. <span className="font-semibold">DHS/WAC/5724</span></p>
           <p>Date of Issue: <span className="font-semibold">03/12/2025</span></p>
         </div>
 
         <div className="text-center mb-6">
           <p className="text-sm text-certificate-text/80 uppercase tracking-widest mb-2">This is to certify that</p>
-          <h3 className="font-serif text-3xl md:text-4xl font-bold text-certificate-text">Vaibhav Singh</h3>
+          <h3 className="font-serif text-3xl md:text-4xl font-bold text-certificate-text">Gula Savithri</h3>
         </div>
 
         <p className="text-center text-certificate-text leading-relaxed mb-6">
-          aged 30, resident of Uttar Pradesh, India, and identified as Male, has successfully completed all required verification steps for work eligibility with Digital Hub Services Pvt. Ltd.
+          aged 24, resident of Telangana, India, and identified as Female, has successfully completed all required verification steps for work eligibility with Digital Hub Services Pvt. Ltd.
         </p>
 
         <div className="text-center mb-6">
           <p className="text-sm text-certificate-text/80">UPI ID:</p>
-          <p className="font-semibold text-certificate-text">9936489424@ptyes</p>
+          <p className="font-semibold text-certificate-text">gulabunny0@oksbi</p>
         </div>
 
         <p className="text-center text-certificate-text mb-4">
-          Accordingly, Vaibhav Singh is hereby authorized to perform
+          Accordingly, Gula Savithri is hereby authorized to perform
         </p>
 
         <div className="space-y-2 mb-6">
@@ -59,7 +59,7 @@ const WorkCertificate = () => {
         </div>
 
         <p className="text-center text-certificate-text mb-2">
-          Accordingly, Vaibhav Singh is hereby authorized to perform
+          Accordingly, Gula Savithri is hereby authorized to perform
         </p>
         <p className="text-center font-serif text-xl font-bold text-certificate-text tracking-wide mb-1">
           DIGITAL OPERATIONS & REMOTE TASK WORK
