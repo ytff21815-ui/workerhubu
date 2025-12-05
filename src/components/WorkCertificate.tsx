@@ -17,11 +17,44 @@ const WorkCertificate = () => {
         <div className="absolute bottom-2 left-2 w-8 h-8 border-b-2 border-l-2 border-certificate-border"></div>
         <div className="absolute bottom-2 right-2 w-8 h-8 border-b-2 border-r-2 border-certificate-border"></div>
 
+        {/* Government of India Header */}
+        <div className="text-center mb-4">
+          {/* Ashoka Emblem */}
+          <div className="flex justify-center mb-2">
+            <svg width="60" height="70" viewBox="0 0 100 120" className="text-certificate-text">
+              {/* Lion Capital Base */}
+              <circle cx="50" cy="35" r="28" fill="none" stroke="currentColor" strokeWidth="2"/>
+              {/* Three Lions representation */}
+              <path d="M35 25 Q50 10 65 25" fill="none" stroke="currentColor" strokeWidth="2"/>
+              <path d="M30 35 L35 25 L40 35" fill="none" stroke="currentColor" strokeWidth="1.5"/>
+              <path d="M45 35 L50 20 L55 35" fill="none" stroke="currentColor" strokeWidth="1.5"/>
+              <path d="M60 35 L65 25 L70 35" fill="none" stroke="currentColor" strokeWidth="1.5"/>
+              {/* Abacus with animals */}
+              <rect x="25" y="48" width="50" height="8" fill="none" stroke="currentColor" strokeWidth="1.5"/>
+              {/* Dharma Chakra */}
+              <circle cx="50" cy="52" r="3" fill="currentColor"/>
+              {/* Lotus base */}
+              <path d="M20 56 Q35 65 50 56 Q65 65 80 56" fill="none" stroke="currentColor" strokeWidth="1.5"/>
+              <path d="M25 62 Q50 75 75 62" fill="none" stroke="currentColor" strokeWidth="1.5"/>
+              {/* Satyameva Jayate */}
+              <text x="50" y="85" textAnchor="middle" fontSize="6" fontWeight="bold" fill="currentColor">सत्यमेव जयते</text>
+            </svg>
+          </div>
+          <p className="text-xs text-certificate-text/70 tracking-widest mb-1">भारत सरकार</p>
+          <h3 className="font-serif text-sm md:text-base font-bold text-certificate-text tracking-wider">
+            GOVERNMENT OF INDIA
+          </h3>
+          <p className="text-xs text-certificate-text/70 tracking-wide">Ministry of Electronics & Information Technology</p>
+        </div>
+
+        <div className="border-t border-certificate-border/50 my-4"></div>
+
         <div className="text-center mb-6">
           <h2 className="font-serif text-lg md:text-xl font-bold text-certificate-text tracking-wide">
             DIGITAL HUB SERVICES PRIVATE LIMITED
           </h2>
-          <h1 className="font-serif text-2xl md:text-3xl font-bold text-certificate-text mt-2 tracking-wider">
+          <p className="text-xs text-certificate-text/70 mt-1">(Registered under Ministry of Corporate Affairs)</p>
+          <h1 className="font-serif text-2xl md:text-3xl font-bold text-certificate-text mt-3 tracking-wider">
             WORK AUTHORIZATION CERTIFICATE
           </h1>
         </div>
